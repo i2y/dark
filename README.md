@@ -593,6 +593,7 @@ See [`desktop/README.md`](desktop/README.md) for the full API reference (binding
 - **[showcase](_examples/showcase/)** — CSRF, concurrent loaders, SSR cache + ETag, SSG, Context.Set/Get
 - **[database](_examples/database/)** — SQLite CRUD with sessions and authentication
 - **[desktop-demo](_examples/desktop-demo/)** — desktop app: Islands, htmx, sessions, Go↔JS bindings, events
+- **[monaco-editor](_examples/monaco-editor/)** — desktop code editor: Monaco Editor via its AMD loader, Go intelligence through gopls (LSP)
 - **[deploy](_examples/deploy/)** — production setup with Dockerfile and Fly.io config
 - **[mcp-app](examples/mcp-app/)** — MCP Apps: interactive UI tools via postMessage
 

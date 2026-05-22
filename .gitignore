@@ -10,6 +10,7 @@ _examples/hello/hello
 _examples/database/database
 _examples/deploy/cmd/server/server
 _examples/desktop-demo/desktop-demo
+_examples/monaco-editor/monaco-editor
 
 # Generated files
 _generated/
@@ -17,6 +18,9 @@ _generated/
 # Dependencies (installed by ramune at runtime)
 node_modules/
 .ramune-cache/
+
+# Vendored Monaco (run `make vendor` in _examples/monaco-editor)
+_examples/monaco-editor/public/vs/
 
 # Database files
 *.db
